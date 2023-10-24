@@ -16,7 +16,8 @@ int main()
 
     // ******************* Using printf placeholders *********************** 
     int age = 23;
-    printf("My age is %d\n", age);
+    int num = 12;
+    printf("My age is %d and %d\n", age,num);
 
     // Some other placeholders include %c for character and %f for floating point
     float radius = 10.0f;

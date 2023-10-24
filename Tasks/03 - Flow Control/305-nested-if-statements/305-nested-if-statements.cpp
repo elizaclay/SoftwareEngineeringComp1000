@@ -37,7 +37,9 @@ int main()
         cout << "Tank needs filling ";
         if (level == 0) {
             cout << "urgently as you your tank is actually empty!" << endl;
+
         }
+
         else {
             cout << "very soon as it is low" << endl;
         }

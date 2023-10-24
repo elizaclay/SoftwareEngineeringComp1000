@@ -27,7 +27,7 @@ int main()
     //Read the keyboad to get the level
     //Repeat until a valid value has been added
     do {
-        cout << "Please enter a level (between 0 and 100)" << endl;
+        cout << "Please grtht enter a level (between 0 and 100)" << endl;
         cin >> level;
     } while ((level < 0) || (level > 100)); //Repeat until a valid number is entered
 

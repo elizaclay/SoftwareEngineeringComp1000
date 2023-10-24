@@ -34,6 +34,15 @@ int main()
     //Write out all elements of the array again - shorter version this time
     for (unsigned int n = 0; n < N; n++) {
         cout << "Element " << n << " of nums = " << nums[n] << endl;
+
+        int sum = 0;
+
+        for (int i = 0; i < size; i++)
+        {
+            sum = sum + nums[i];
+        }
+
+        cout << "The sum of the elements in the array: " << sum;
     }
 
 
